@@ -124,4 +124,34 @@
         margin: 0;
     }
 
+    /*ABOUT*/
+
+    .page-title {
+        padding-top: 10rem;
+    }
+
+    .about {
+        display: grid;
+        grid-template-columns: 350px 1fr;
+        align-items: center;
+        gap: 5rem;
+
+        text-align: left;
+    }
+
+    .about .hero-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about .hero-image img {
+        width: 320px;
+        height: 320px;
+    }
+
+    .cta .hero-buttons {
+        justify-content: center;
+        flex-direction: row;
+    }
+
 }

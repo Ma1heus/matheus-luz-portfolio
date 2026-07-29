@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "C# Calculator",
+        "description": "Console calculator created while learning object-oriented programming, clean code, and exception handling.",
+        "image": "images/calculator.webp",
+        "github": "https://github.com/Ma1heus/CSharp-Calculator",
+        "demo": "",
+        "technologies": [
+            "C#",
+            ".NET",
+            "Git"
+        ],
+        "status": "Completed",
+        "year": 2026,
+        "featured": true
+    },
+    {
+        "id": 2,
+        "title": "Curitiba Chamber",
+        "description": "Responsive Chamber of Commerce website developed using HTML, CSS, and JavaScript.",
+        "image": "images/chamber.webp",
+        "github": "https://github.com/Ma1heus/wdd231",
+        "demo": "https://ma1heus.github.io/wdd231/chamber/",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "status": "Completed",
+        "year": 2026,
+        "featured": true
+    },
+    {
+        "id": 3,
+        "title": "CodeStart Guide",
+        "description": "Website introducing programming concepts, languages, and technology careers.",
+        "image": "images/codestart.webp",
+        "github": "https://github.com/Ma1heus/wdd231",
+        "demo": "https://ma1heus.github.io/wdd231/finalproject/",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "status": "Completed",
+        "year": 2026,
+        "featured": true
+    },
+    {
+        "id": 4,
+        "title": "Portfolio Website",
+        "description": "Personal portfolio to showcase projects, skills, and certifications.",
+        "image": "images/portfolio.webp",
+        "github": "#",
+        "demo": "#",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "status": "In Progress",
+        "year": 2026,
+        "featured": false
+    },
+    {
+        "id": 5,
+        "title": "Weather API",
+        "description": "Application that consumes a weather API and displays forecast information.",
+        "image": "images/weather.webp",
+        "github": "#",
+        "demo": "#",
+        "technologies": [
+            "JavaScript",
+            "REST API",
+            "JSON"
+        ],
+        "status": "Planned",
+        "year": 2026,
+        "featured": false
+    }
+]
