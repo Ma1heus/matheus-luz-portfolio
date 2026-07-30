@@ -1,12 +1,12 @@
 @media (min-width: 768px) {
 
     header {
-        height: 8rem;
+        height: 6rem;
         padding: 0 5rem;
     }
 
     .logo h2 {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     #menu-button {
@@ -29,7 +29,7 @@
 
     #navigation a {
         padding: 0;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     #navigation a::after {
@@ -62,7 +62,7 @@
         display: grid;
         grid-template-columns: 1fr 400px;
         align-items: center;
-        gap: 5rem;
+        gap: 4rem;
 
         text-align: left;
     }
@@ -154,4 +154,24 @@
         flex-direction: row;
     }
 
+   /* Projects */
+
+    .projects .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        gap: 2rem;
+    }
+
+    .projects .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects .card img {
+        height: 240px;
+    }
+
+    .project-links {
+        margin-top: auto;
+    }
 }

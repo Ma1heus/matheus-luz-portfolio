@@ -20,8 +20,8 @@
         "title": "Curitiba Chamber",
         "description": "Responsive Chamber of Commerce website developed using HTML, CSS, and JavaScript.",
         "image": "images/chamber.webp",
-        "github": "https://github.com/Ma1heus/wdd231",
-        "demo": "https://ma1heus.github.io/wdd231/chamber/",
+        "github": "https://github.com/Ma1heus/wdd231/tree/main/chamber",
+        "demo": "https://ma1heus.github.io/wdd231/chamber/index.html",
         "technologies": [
             "HTML",
             "CSS",

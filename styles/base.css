@@ -111,7 +111,7 @@ header {
 /* Main */
 
 main {
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 /* Sections */
@@ -255,20 +255,10 @@ section p {
 
 /* About Page */
 
-.page-title {
-    padding: 7rem 1.5rem 3rem;
-    text-align: center;
-}
-
-.page-title h1 {
+.about h1 {
     margin-bottom: 1rem;
     font-size: 2.8rem;
     color: var(--primary-color);
-}
-
-.page-title p {
-    max-width: 700px;
-    margin: auto;
 }
 
 .about {
@@ -276,11 +266,13 @@ section p {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    height: 90vh;
+    margin-top: 60px;
 
     text-align: center;
 }
 
-.about-content h2 {
+.about-content h1 {
     margin-bottom: 1rem;
 }
 
@@ -307,6 +299,7 @@ section p {
 }
 
 .cta p {
+
     margin-bottom: 2rem;
 }
 
@@ -316,6 +309,133 @@ section p {
 
 section:not(.page-title):not(.about) {
     border-top: 1px solid #1b1b1b;
+}
+
+/* Projects */
+
+.projects {
+    padding-top: 2rem;
+}
+
+.projects .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.projects .card {
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.projects .card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary-color);
+}
+
+.projects .card img {
+    width: 100%;
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+.project-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 1rem;
+}
+
+.status {
+    padding: .3rem .8rem;
+
+    border-radius: 999px;
+
+    font-size: .85rem;
+    font-weight: 600;
+}
+
+.status.completed {
+    background: rgba(31, 255, 23, .15);
+    color: var(--primary-color);
+}
+
+.status.in-progress {
+    background: rgba(255, 193, 7, .15);
+    color: #ffc107;
+}
+
+.status.planned {
+    background: rgba(0, 123, 255, .15);
+    color: #4da3ff;
+}
+
+.year {
+    color: var(--secondary-text-color);
+    font-size: .95rem;
+}
+
+.projects .card h3 {
+    margin-bottom: 1rem;
+
+    color: var(--primary-color);
+    font-size: 1.6rem;
+}
+
+.projects .card p {
+    margin-bottom: 1.5rem;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .7rem;
+
+    list-style: none;
+
+    margin-bottom: 2rem;
+}
+
+.technologies li {
+    padding: .4rem .9rem;
+
+    border: 1px solid var(--primary-color);
+    border-radius: 999px;
+
+    color: var(--primary-color);
+
+    font-size: .9rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.project-links a {
+    flex: 1;
+
+    text-align: center;
+    text-decoration: none;
+
+    padding: .8rem;
+
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+
+    color: var(--primary-color);
+
+    transition: var(--transition);
+}
+
+.project-links a:hover {
+    background: var(--primary-color);
+    color: black;
 }
 
 /* Footer */
