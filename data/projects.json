@@ -36,8 +36,8 @@
         "title": "CodeStart Guide",
         "description": "Website introducing programming concepts, languages, and technology careers.",
         "image": "images/codestart.webp",
-        "github": "https://github.com/Ma1heus/wdd231",
-        "demo": "https://ma1heus.github.io/wdd231/finalproject/",
+        "github": "https://github.com/Ma1heus/wdd231/tree/main/CodeStart%20Guide",
+        "demo": "https://ma1heus.github.io/wdd231/CodeStart%20Guide/index.html",
         "technologies": [
             "HTML",
             "CSS",
@@ -49,22 +49,6 @@
     },
     {
         "id": 4,
-        "title": "Portfolio Website",
-        "description": "Personal portfolio to showcase projects, skills, and certifications.",
-        "image": "images/portfolio.webp",
-        "github": "#",
-        "demo": "#",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ],
-        "status": "In Progress",
-        "year": 2026,
-        "featured": false
-    },
-    {
-        "id": 5,
         "title": "Weather API",
         "description": "Application that consumes a weather API and displays forecast information.",
         "image": "images/weather.webp",
