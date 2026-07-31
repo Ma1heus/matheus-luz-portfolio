@@ -154,7 +154,36 @@
         flex-direction: row;
     }
 
-   /* Projects */
+    .beyond {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .beyond-content {
+        text-align: left;
+    }
+
+    .beyond-content p {
+        margin: 0;
+    }
+
+    .beyond-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .beyond-gallery img:first-child {
+        grid-column: span 2;
+        height: 260px;
+    }
+
+    .beyond-gallery img:nth-child(2),
+    .beyond-gallery img:nth-child(3) {
+        height: 180px;
+    }
+
+    /* Projects */
 
     .projects .cards {
         display: grid;
