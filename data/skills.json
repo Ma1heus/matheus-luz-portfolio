@@ -1,0 +1,84 @@
+{
+    "languages": [
+        {
+            "name": "C#",
+            "image": "images/skills/csharp.svg",
+            "description": "Building console applications while learning object-oriented programming, exception handling, collections, and clean code.",
+            "topics": [
+                "OOP",
+                "Collections",
+                "Exception Handling",
+                "LINQ (Learning)"
+            ]
+        },
+        {
+            "name": "JavaScript",
+            "image": "images/skills/javascript.svg",
+            "description": "Creating dynamic websites using DOM manipulation, JSON, asynchronous programming, and APIs.",
+            "topics": [
+                "DOM",
+                "JSON",
+                "Fetch API",
+                "Async/Await"
+            ]
+        },
+        {
+            "name": "HTML5",
+            "image": "images/skills/html.svg",
+            "description": "Building semantic, responsive, and accessible web pages following modern best practices.",
+            "topics": [
+                "Semantic HTML",
+                "SEO",
+                "Accessibility",
+                "Forms"
+            ]
+        },
+        {
+            "name": "CSS3",
+            "image": "images/skills/css.svg",
+            "description": "Developing responsive layouts with Flexbox, Grid, animations, and reusable components.",
+            "topics": [
+                "Flexbox",
+                "Grid",
+                "Responsive Design",
+                "Animations"
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Git",
+            "image": "images/skills/git.svg",
+            "description": "Version control using commits, branches, merges, and collaborative workflows."
+        },
+        {
+            "name": "GitHub",
+            "image": "images/skills/github.svg",
+            "description": "Hosting repositories, documentation, and GitHub Pages."
+        },
+        {
+            "name": "VS Code",
+            "image": "images/skills/vscode.svg",
+            "description": "Primary code editor for web development and C# projects."
+        },
+        {
+            "name": "Visual Studio",
+            "image": "images/skills/visualstudio.svg",
+            "description": "Developing and debugging C# and .NET applications."
+        }
+    ],
+    "learning": [
+        {
+            "title": "Software Development",
+            "description": "Currently studying Software Development at BYU, focusing on clean code, software engineering principles, and practical projects."
+        },
+        {
+            "title": "Languages",
+            "description": "Continuously improving my English while studying Spanish."
+        },
+        {
+            "title": "Future Goals",
+            "description": "Planning to deepen my knowledge of ASP.NET, databases, Docker, cloud technologies, and software architecture."
+        }
+    ]
+}
