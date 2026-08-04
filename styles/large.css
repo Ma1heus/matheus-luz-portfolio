@@ -203,4 +203,35 @@
     .project-links {
         margin-top: auto;
     }
+
+    /* Skills */
+
+    #languages,
+    #tools {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    #learning {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    #languages .card,
+    #tools .card,
+    #learning .card {
+        height: 100%;
+    }
+
+    #languages .card img,
+    #tools .card img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .technologies {
+        margin-top: auto;
+    }
 }
