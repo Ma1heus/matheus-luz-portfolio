@@ -234,4 +234,25 @@
     .technologies {
         margin-top: auto;
     }
+
+    /* Contact */
+
+    .contact-info .cards {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
+    }
+
+    .contact-card {
+        min-height: 250px;
+        transition: var(--transition);
+    }
+
+    .contact-card:hover {
+        transform: translateY(-8px);
+        border-color: var(--primary-color);
+    }
+
+    .availability {
+        max-width: 900px;
+    }
 }
