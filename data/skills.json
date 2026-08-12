@@ -13,7 +13,7 @@
         },
         {
             "name": "JavaScript",
-            "image": "images/skills/javascript.svg",
+            "image": "/images/skills/javascript.svg",
             "description": "Creating dynamic websites using DOM manipulation, JSON, asynchronous programming, and APIs.",
             "topics": [
                 "DOM",
@@ -55,16 +55,6 @@
             "name": "GitHub",
             "image": "images/skills/github.svg",
             "description": "Hosting repositories, documentation, and GitHub Pages."
-        },
-        {
-            "name": "VS Code",
-            "image": "images/skills/vscode.svg",
-            "description": "Primary code editor for web development and C# projects."
-        },
-        {
-            "name": "Visual Studio",
-            "image": "images/skills/visualstudio.svg",
-            "description": "Developing and debugging C# and .NET applications."
         }
     ],
     "learning": [
