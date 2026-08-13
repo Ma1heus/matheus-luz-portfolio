@@ -57,7 +57,8 @@ header {
 
 .logo h2 {
     color: var(--secondary-color);
-    font-size: 2rem;
+    font-size: 1.3rem;
+    white-space: nowrap;
 }
 
 #menu-button {
@@ -484,7 +485,7 @@ section:not(.page-title):not(.about) {
 
 /* Skills */
 
-.card img{
+.card img {
     display: block;
 
     width: 80px;
@@ -495,7 +496,7 @@ section:not(.page-title):not(.about) {
     object-fit: contain;
 }
 
-.technologies{
+.technologies {
     display: flex;
     flex-wrap: wrap;
     gap: .6rem;
@@ -505,7 +506,7 @@ section:not(.page-title):not(.about) {
     list-style: none;
 }
 
-.technologies li{
+.technologies li {
     padding: .45rem .8rem;
 
     border: 1px solid var(--primary-color);
