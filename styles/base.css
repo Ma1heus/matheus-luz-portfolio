@@ -358,6 +358,54 @@ section:not(.page-title):not(.about) {
 
 /* Projects */
 
+.projects-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 500px;
+    padding: 3rem 1.5rem;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, .85),
+            rgba(0, 0, 0, .9)),
+        url("../images/projects-hero.webp") center / cover no-repeat;
+
+    text-align: center;
+}
+
+.projects-hero-content {
+    max-width: 800px;
+}
+
+.projects-hero .hero-label {
+    margin-bottom: 1rem;
+
+    color: var(--secondary-color);
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.projects-hero h1 {
+    margin-bottom: 1rem;
+
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.projects-hero-content>p:not(.hero-label) {
+    margin-bottom: 2rem;
+
+    color: var(--secondary-text-color);
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+.projects-hero .button {
+    min-width: 180px;
+}
+
 .projects {
     padding-top: 2rem;
 }
