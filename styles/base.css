@@ -531,41 +531,55 @@ section:not(.page-title):not(.about) {
     color: black;
 }
 
-/* Skills */
+/* Skills Hero */
 
-.card img {
-    display: block;
-
-    width: 80px;
-    height: 80px;
-
-    margin: 0 auto 1.5rem;
-
-    object-fit: contain;
-}
-
-.technologies {
+.skills-hero {
     display: flex;
-    flex-wrap: wrap;
-    gap: .6rem;
+    align-items: center;
+    justify-content: center;
 
-    margin-top: 1rem;
+    min-height: 500px;
+    padding: 3rem 1.5rem;
 
-    list-style: none;
+    background:
+        linear-gradient(rgba(0, 0, 0, .85),
+            rgba(0, 0, 0, .9)),
+        url("../images/skills-hero.webp") center / cover no-repeat;
+
+    text-align: center;
 }
 
-.technologies li {
-    padding: .45rem .8rem;
+.skills-hero-content {
+    max-width: 800px;
+}
 
-    border: 1px solid var(--primary-color);
-    border-radius: 20px;
+.skills-hero .hero-label {
+    margin-bottom: 1rem;
+
+    color: var(--secondary-color);
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.skills-hero h1 {
+    margin-bottom: 1rem;
 
     color: var(--primary-color);
-
-    font-size: .9rem;
+    font-size: 3rem;
 }
 
-/* Skills */
+.skills-hero-content>p:not(.hero-label) {
+    margin-bottom: 2rem;
+
+    color: var(--secondary-text-color);
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+.skills-hero .button {
+    min-width: 180px;
+}
 
 #languages,
 #tools,
@@ -583,6 +597,8 @@ section:not(.page-title):not(.about) {
 
 #languages .card img,
 #tools .card img {
+    display: block;
+
     width: 80px;
     height: 80px;
 
@@ -611,6 +627,8 @@ section:not(.page-title):not(.about) {
     flex-wrap: wrap;
     justify-content: center;
     gap: .7rem;
+
+    margin-top: 1rem;
 
     list-style: none;
 }
