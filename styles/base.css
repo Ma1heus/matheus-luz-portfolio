@@ -660,6 +660,50 @@ section:not(.page-title):not(.about) {
 
 /* Contact */
 
+.contact-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 500px;
+    padding: 3rem 1.5rem;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, .85),
+            rgba(0, 0, 0, .9)),
+        url("../images/contacts-hero.webp") center / cover no-repeat;
+
+    text-align: center;
+}
+
+.contact-hero-content {
+    max-width: 800px;
+}
+
+.contact-hero .hero-label {
+    margin-bottom: 1rem;
+
+    color: var(--secondary-color);
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.contact-hero h1 {
+    margin-bottom: 1rem;
+
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.contact-hero-content>p:not(.hero-label) {
+    margin-bottom: 2rem;
+
+    color: var(--secondary-text-color);
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
 .contact-info {
     text-align: center;
 }
