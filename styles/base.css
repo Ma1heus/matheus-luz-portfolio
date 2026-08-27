@@ -745,17 +745,6 @@ section:not(.page-title):not(.about) {
     color: var(--primary-color);
 }
 
-.availability {
-    max-width: 800px;
-    margin: 0 auto;
-
-    text-align: center;
-}
-
-.availability p {
-    margin-top: 1rem;
-}
-
 /* Footer */
 
 footer {
